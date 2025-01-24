@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://main2.cn/tool/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查询宽度账号</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        input::-webkit-input-placeholder {
+            color: color: #999; 
+            -webkit-transition: color.5s; 
+        }
+        input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { 
+        color: #c2c2c2; 
+        -webkit-transition: color.5s; 
+    }
+            th,input{
+                border-radius: 5px;
+                border-width: 1px;
+                background-color:transparent;
+                padding:0px;
+                margin: 0px;
+            }
+            input{
+                border:0px;
+            }
+            .custom-range{
+
+            }
+            /*#show{display:none;}*/
+    </style>
+<style>
+      @keyframes rotate360 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Rg.ttf");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap; 
+        }
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Bd.ttf");
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style><style type="text/css">
+		[mt_node=trans_loading]::after{
+		content: '';
+		vertical-align: middle !important;
+		width: 1em !important;
+		height: 1em !important;
+		display: inline-block !important;
+		margin: 0 4px !important;
+		border: 2px rgba(0, 0, 0, 0.25) solid !important;
+		border-top: 2px rgba(0, 0, 0, 1) solid !important;
+		border-radius: 50% !important;
+		padding: 0 !important;
+		-webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+		animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+		}
+
+		@keyframes immersive-translate-loading-animation {
+			from {
+				transform: rotate(0deg,0deg,0deg);
+			}
+			to {
+				transform: rotate(359deg,0deg,0deg);
+			}
+		}
+	</style><style type="text/css">[mt_node^=trans]{display: none !important;}</style><style>
+      @keyframes rotate360 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Rg.ttf");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap; 
+        }
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Bd.ttf");
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style><style>
+      @keyframes rotate360 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Rg.ttf");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap; 
+        }
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Bd.ttf");
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style><style>
+      @keyframes rotate360 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Rg.ttf");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap; 
+        }
+        @font-face {
+            font-family: 'Amazon Ember';
+            src: url("chrome-extension://cgdjpilhipecahhcilnafpblkieebhea/fonts/AmazonEmber_Bd.ttf");
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style></head>
+<body>
+    <form action="https://main2.cn/tool/" method="post" onsubmit="return query()" id="form1">
+            <div class="container col-md-3" align="center">
+            <h1>查询宽度账号</h1>
+                <table class="table" id="main"><tbody><tr>
+                            <th>学号：</th><th><input type="text" required="" minlength="12" maxlength="12" name="username" class="form-control" placeholder="输入你的学号" value=""></th>
+                        </tr>
+                        <tr>
+                            <th>类型：</th><th>
+                                <select name="kind" class="form-select" required="required">
+                                    <option value="0" selected="selected">移动</option>
+                                    <option value="1">电信</option>
+                                    <option value="2">教工</option>
+                                    <option value="3">学生</option>
+                                </select>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2"><input style="width: 100%;" type="submit" class="btn btn-info" value="查  询"></th>
+                        </tr></tbody></table>
+            </div>
+    </form>
+    <div class="container" align="center">
+        <h1 class="page-header" id="result">    
+        </h1>
+    </div>
+    <input readonly="" id="res" type="text" style="opacity: 0;position: absolute;">
+
+<script>
+    var kinds=['@ydyx','@dx','@tch',"@stu"];
+    function query(){
+        var username=document.forms.form1.username.value;
+        var kind=document.forms.form1.kind.value;
+        var res='{SRUN2}';
+        for(let i=0;i<username.length;i++){
+            res+=String.fromCharCode(username.charCodeAt(i)+4);
+        }
+        res+=kinds[kind];
+        var html="宽带账号为：<h6>"+res+"</h6><input type='button' onclick='copy()'' class='btn btn-primary' value='拷贝'>";
+        document.getElementById('res').value=res;
+        document.getElementById("result").innerHTML=html;
+        return false;
+    }
+    function copy(){
+            var e=document.getElementById("res");//对象是content
+            e.select(); //选择对象
+            document.execCommand("Copy"); //执行浏览器复制命令
+            alert("复制成功");
+        }
+</script>
+</body><volc-translate style="position: fixed; top: 0px; left: 0px; width: 0px; height: 0px; z-index: 2147483647;"><template shadowrootmode="open"><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><link rel="stylesheet" href="chrome-extension://jmnhemdajboodicneejdlpanmijclhef/styles/content.css"><main id="volc_translate"><div class="App__Wrapper-sc-t1bcp1-0 dljXSv"></div></main><style data-styled="active" data-styled-version="5.3.9"></style></template></volc-translate></html>
